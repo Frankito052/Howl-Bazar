@@ -1,0 +1,319 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="pagina principal del bazar">
+  <meta name="keywords" content="bazar decoracion organizadores tienda baño living cocina dormitorio cuarto cocina">
+  <title>Howl Bazar</title>
+  <link rel="stylesheet" href="styles.css" />
+  <link rel="icon" type="image/png" href="images/calLogo.png">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.0/font/bootstrap-icons.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+</head>
+
+<body>
+  <header>
+    <!-------------------------------HEADER SUPERIOR------------------------------------------------->
+    <section>
+      <section class="mainHead">
+        <a class="logoDiv" href="#">
+          <img class="logoHowl" src="images/logo.png" alt="">
+          <h1 class="mainLogo fs-2">Howl Bazar</h1>
+        </a>
+        <form class="d-flex searchForm">
+          <input class="form-control me-2" type="search" placeholder="Buscar" aria-label="Search">
+        </form>
+      </section>
+      <!--------------------------------------HEADER INFERIOR------------------------------------------------->
+      <nav class="navbar navbar-expand-lg navbar-light">
+        <div class="container-fluid ">
+          <a class="navbar-brand secLogo" href="#">
+            <img class="logoHowl" src="images/logo.png" alt="">
+            Howl Bazar</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+            aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto  mb-lg-0 navList">
+              <li class="nav-item navItem">
+                <a class="nav-link active navLink1" aria-current="page" href="#">HOME</a>
+              </li>
+              <li class="nav-item dropdown navItem">
+                <a class="nav-link navLink dropdown-toggle active" href="#" id="navbarDropdown" role="button"
+                  data-bs-toggle="dropdown" aria-expanded="false">
+                  TIENDA
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <li class="text-center"><a class="dropdown-item navLink" href="/sections/store.html">Cocina</a>
+                  </li>
+                  <li class="text-center"><a class="dropdown-item navLink" href="/sections/store.html">Living</a>
+                  </li>
+                  <li class="text-center"><a class="dropdown-item navLink" href="/sections/store.html">Cuarto</a>
+                  </li>
+                  <li class="text-center"><a class="dropdown-item navLink" href="/sections/store.html">Baño</a></li>
+                </ul>
+              </li>
+              <li class="nav-item navItem">
+                <a class="nav-link active navLink" aria-current="page" href="/sections/contact.html">CONTACTO</a>
+              </li>
+              <li class="nav-item navItem">
+                <a class="nav-link active navLink" aria-current="page" href="/sections/about.html">NOSOTROS</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+  </header>
+  <!-------------------------------------------MAIN------------------------------------------------------>
+  <main>
+    <!---------------------------------------CARRUSEL------------------------------------------------------>
+    <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="images/roomWall.jpg" class="d-block w-100 carouselImg text-center" alt="Dormitorio">
+          <div class="carousel-caption d-none d-md-block">
+            <h5 class="imgTitle">━━━━ HABITACION ━━━━</h5>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="images/kitchWall.jpg" class="d-block w-100 carouselImg text-center" alt="Cocina">
+          <div class="carousel-caption d-none d-md-block">
+            <h5 class="imgTitle">━━━━ COCINA ━━━━</h5>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="images/bathWall.jpg" class="d-block w-100 carouselImg text-center" alt="Banitori">
+          <div class="carousel-caption d-none d-md-block">
+            <h5 class="imgTitle">━━━━ BAÑO ━━━━</h5>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="images/livingWall.jpg" class="d-block w-100 carouselImg text-center" alt="Living">
+          <div class="carousel-caption d-none d-md-block">
+            <h5 class="imgTitle">━━━━ LIVING ━━━━</h5>
+          </div>
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls"
+        data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls"
+        data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+    <!------------------------------------INFO CATEGORIAS----------------------------------------------->
+    <section class="catMainSec">
+      <h2 class="catMainTit">Nuestros Productos</h2>
+      <p class="catMainText">Conocé nuestro catálogo online de productos en iluminación y decoración.</p>
+      <div class="catSMainDiv">
+        <div class="catMainDiv1">Decoración</div>
+        <div class="catMainDiv2">Jardin</div>
+        <div class="catMainDiv3">Especiales</div>
+        <div class="catMainDiv4">Contenedores</div>
+      </div>
+      <div class="btnCatMainDiv">
+      <a class="btnCatMain btn btn-primary col-7" href="/sections/store.html" role="button">Ir a la Tienda</a>
+    </div>
+    </section>
+    <!------------------------------------INFO COMPRA--------------------------------------------------->
+    <section class="aboutMain">
+      <div class="aboutDiv" data-aos="fade-right">
+        <i class="fa-solid fa-box-archive aboutIcon"></i>
+        <h3 class="aboutTitleMain">Venta por Mayor y Menor</h3>
+      </div>
+      <div class="aboutDiv1">
+        <i class="fa-solid fa-plane aboutIcon"></i>
+        <h3 class="aboutTitleMain">Venta a todo el País</h3>
+      </div>
+      <div class="aboutDiv">
+        <i class="fa-solid fa-user-large aboutIcon"></i>
+        <h3 class="aboutTitleMain">Atención Personalizada</h3>
+      </div>
+      <div class="aboutDiv1">
+        <i class="fa-solid fa-heart aboutIcon"></i>
+        <h3 class="aboutTitleMain">Calidad en cada Detalle</h3>
+      </div>
+    </section>
+    <!-------------------------------------PRODUCTOS------------------------------------------------------>
+    <section class="newsMain">
+      <h3 class="newsTitle">━━━ NOVEDADES ━━━</h3>
+    </section>
+    <!---------------------------------------NOVEDADES--------------------------------------------------->
+    <section class="storeMain">
+      <div class="proDiv">
+        <div class="contImage">
+          <img class="proImage" src="images/broche.jpeg" alt="broche">
+        </div>
+        <a href="/sections/products.html" class="proName">Broche de Plastico <span
+            class="badge bg-secondary">New</span></a>
+        <span class="proPrice">$60.00</span>
+      </div>
+      <div class="proDiv">
+        <div class="contImage">
+          <img class="proImage" src="images/compotera.jpeg" alt="compotera">
+        </div>
+        <a href="/sections/products.html" class="proName">Compotera <span class="badge bg-secondary">New</span></a
+          href="">
+        <span class="proPrice">$180.00</span>
+      </div>
+      <div class="proDiv">
+        <div class="contImage">
+          <img class="proImage" src="images/espatula.jpeg" alt="espatula">
+        </div>
+        <a href="/sections/products.html" class="proName">Espatula de Silicona <span
+            class="badge bg-secondary">New</span></a href="">
+        <span class="proPrice">$250.00</span>
+      </div>
+      <div class="proDiv">
+        <div class="contImage">
+          <img class="proImage" src="images/termoymate.jpeg" alt="termoymate">
+        </div>
+        <a href="/sections/products.html" class="proName">Juego de Termo y Mate <span
+            class="badge bg-secondary">New</span></a href="">
+        <span class="proPrice">$890.00</span>
+      </div>
+      <div class="proDiv">
+        <div class="contImage">
+          <img class="proImage" src="images/portaSaquitos.jpeg" alt="portaSaquitos">
+        </div>
+        <a href="/sections/products.html" class="proName">Porta Saquitos <span class="badge bg-secondary">New</span></a
+          href="">
+        <span class="proPrice">$60.00</span>
+      </div>
+      <div class="proDiv">
+        <div class="contImage">
+          <img class="proImage" src="images/perchero.jpg" alt="perchero">
+        </div>
+        <a href="/sections/products.html" class="proName">Perchero Vintage <span
+            class="badge bg-secondary">New</span></a>
+        <span class="proPrice">$650,00</span>
+      </div>
+      <div class="proDiv">
+        <div class="contImage">
+          <img class="proImage" src="images/dispenserCeramico.jpg" alt="dispenserCeramico">
+        </div>
+        <a href="/sections/products.html" class="proName">Dispenser Ceramico <span
+            class="badge bg-secondary">New</span></a href="">
+        <span class="proPrice">$450.00</span>
+      </div>
+      <div class="proDiv">
+        <div class="contImage">
+          <img class="proImage" src="images/portaCepillos.jpg" alt="portaCepillos">
+        </div>
+        <a href="/sections/products.html" class="proName">Porta Cepillos <span class="badge bg-secondary">New</span></a
+          href="">
+        <span class="proPrice">$500.00</span>
+      </div>
+      <!-------------------------------------OFERTAS--------------------------------------------------->
+    </section>
+    <section class="ofertMain">
+      <h3 class="ofertTitle">━━━ OFERTAS ━━━</h3>
+    </section>
+    <section class="storeMain">
+      <div class="proDiv">
+        <div class="contImage">
+          <img class="proImage" src="images/adornoColgante.jpg" alt="adornoColgante">
+        </div>
+        <a href="/sections/products.html" class="proName">Colgante para Techo Aysel</a>
+        <span class="proPrice">$230.00</span>
+      </div>
+      <div class="proDiv">
+        <div class="contImage">
+          <img class="proImage" src="images/macetaCactus.jpg" alt="macetaCactus">
+        </div>
+        <a href="/sections/products.html" class="proName">Maceta con Cactus</a href="">
+        <span class="proPrice">$720.00</span>
+      </div>
+      <div class="proDiv">
+        <div class="contImage">
+          <img class="proImage" src="images/canasta.jpg" alt="Canasta">
+        </div>
+        <a href="/sections/products.html" class="proName">Canasta de Ropa</a href="">
+        <span class="proPrice">$450.00</span>
+      </div>
+      <div class="proDiv">
+        <div class="contImage">
+          <img class="proImage" src="images/espejoRectangular.jpg" alt="espejoRectangular">
+        </div>
+        <a href="/sections/products.html" class="proName">Espejo Rectangular</a href="">
+        <span class="proPrice">$600.00</span>
+      </div>
+      <div class="proDiv">
+        <div class="contImage">
+          <img class="proImage" src="images/botVidrio.jpeg" alt="botellaVidrio">
+        </div>
+        <a href="/sections/products.html" class="proName">Botella de Vidrio</a href="">
+        <span class="proPrice">$200.00</span>
+      </div>
+      <div class="proDiv">
+        <div class="contImage">
+          <img class="proImage" src="images/tazaRosa.jpeg" alt="tazaRosa">
+        </div>
+        <a href="/sections/products.html" class="proName">Taza de Ceramica Rosa</a>
+        <span class="proPrice">$420,00</span>
+      </div>
+      <div class="proDiv">
+        <div class="contImage">
+          <img class="proImage" src="images/tazaCeramica.jpeg" alt="tazaCeramica">
+        </div>
+        <a href="/sections/products.html" class="proName">Taza de Ceramica verde</a href="">
+        <span class="proPrice">$350.00</span>
+      </div>
+      <div class="proDiv">
+        <div class="contImage">
+          <img class="proImage" src="images/pelaPapas.jpeg" alt="pelaPapas">
+        </div>
+        <a href="/sections/products.html" class="proName">Pela Papas</a href="">
+        <span class="proPrice">$200.00</span>
+      </div>
+    </section>
+
+  </main>
+  <!-------------------------------------FOOTER----------------------------------------------------->
+  <footer class="footerMain">
+    <section class="footerSec">
+      <div class="footerDiv">
+        <h4 class="footerSubtitle">Menu</h4>
+        <ul class="footerList">
+          <li class="footerItem"> <a class="footerLink" href="#">Inicio</a></li>
+          <li class="footerItem"> <a class="footerLink" href="/sections/store.html">Productos</a></li>
+          <li class="footerItem"> <a class="footerLink" href="/sections/contact.html">Contacto</a></li>
+          <li class="footerItem"> <a class="footerLink" href="/sections/about.html">Nosotros</a></li>
+        </ul>
+      </div>
+      <div class="footerDiv">
+        <h4 class="footerSubtitle">Info de Contacto</h4>
+        <ul class="footerList">
+          <li class="footerItem">howl.bazar@gmail.com</li>
+          <li class="footerItem">011 12345678</li>
+          <li class="footerItem">Buenos Aires, Argentina</li>
+        </ul>
+      </div>
+      <div class="footerDiv">
+        <h4 class="footerSubtitle">Seguinos
+        </h4>
+        <ul class="footerList">
+          <li class="footerItem">Facebook</li>
+          <li class="footerItem">Instagram</li>
+        </ul>
+      </div>
+    </section>
+    <span class="spanEnd">© 2022 Howl Bazar SL. Todos los derechos reservados.</span>
+  </footer>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous">
+  </script>
+  <script src="https://kit.fontawesome.com/4e01470a9e.js" crossorigin="anonymous"></script>
+</body>
+
+</html>
